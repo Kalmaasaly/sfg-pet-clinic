@@ -9,6 +9,7 @@ import java.util.Set;
 /**
  * Created by @author Kalmaasali on 18/04/2020.
  **/
+
 @Service
 public class VetServiceMap extends AbstractMapService<Vet, Long>
         implements VetService {

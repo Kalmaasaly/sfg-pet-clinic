@@ -9,6 +9,7 @@ import java.util.Set;
 /**
  * Created by @author Kalmaasali on 18/04/2020.
  **/
+
 @Service
 public class PetServiceMap extends AbstractMapService<Pet, Long>
         implements PetService {
