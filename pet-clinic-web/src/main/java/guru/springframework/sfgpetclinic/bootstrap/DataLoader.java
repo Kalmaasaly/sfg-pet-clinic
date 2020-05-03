@@ -61,11 +61,13 @@ public class DataLoader implements CommandLineRunner {
         radiology.setDescription("dentistry");
         Speciality saveDentistry = specialityService.save(dentistry);
 
+        // Owner owner=Owner.builder().address("hi").firstName("Khalil").build();
+
+        // System.out.println("----"+owner.getFirstName());
         Owner owner1 = new Owner();
-        //owner1.setId(1L);
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
-        owner1.setAddress("123 brickerel");
+        owner1.setAddress("");
         owner1.setCity("Miami");
         owner1.setTelephone("123456789");
         Pet mikesPet = new Pet();
